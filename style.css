@@ -1,0 +1,165 @@
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: #121212;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #1e1e1e;
+  padding: 20px;
+  text-align: center;
+}
+
+.sidebar .profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 15px 0;
+}
+
+.sidebar a:hover {
+  color: #00acee;
+}
+.main {
+  flex: 1;
+  padding: 40px;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.intro h2 {
+  font-size: 48px;
+  line-height: 1.2;
+  color: #0088cc;
+}
+
+.intro p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.intro br {
+  color: #00acee;
+}
+.text h1 {
+  color: #0088cc;
+}
+
+button {
+  padding: 10px 20px;
+  flex: 1 1 3rem;
+  background-color: #00acee;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0088cc;
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+.section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.section p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.section img {
+  width: 230px;
+  margin: 20px 25px;
+  margin-left: 135px;
+}
+
+.section svg {
+width: 30px;
+}
+
+.skill-bar {
+  margin-bottom: 20px;
+}
+
+.skill-bar p {
+  margin-bottom: 5px;
+}
+
+.bar {
+  background-color: #333;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 10px;
+}
+
+.progress {
+  height: 10px;
+  background-color: #00acee;
+  width: 0;
+  animation: load 2s forwards;
+  border-radius: 5px;
+}
+
+.progress.html { width: 80%; }
+.progress.css { width: 68%; }
+.progress.javascript { width: 40%; }
+.progress.php { width: 60%; }
+
+@keyframes load {
+  from { width: 0; }
+  to { width: 80%, 68%, 40%, 60%; }
+}
+.icon{
+  margin-top: 30px;
+  width: 80%;
+  margin-left: -30px;
+}
+.word{
+  text-align: center;
+  margin-top: -210px;
+  margin-bottom: 50px;
+  font-size: 35px;
+  margin-left: -60%;
+}
+.word2{
+  text-align: center;
+  margin-top: -15px;
+  margin-bottom: 50px;
+  margin-left: -58%;
+}
+.word3{
+  text-align: center;
+  margin-top: -15px;
+  margin-bottom: 50px;
+  margin-left: -52%;
+}
+
